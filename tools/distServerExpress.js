@@ -14,6 +14,8 @@ const server = http.createServer(app);
 const port = (process.env.PORT || 4000);
 console.log(chalkSuccess('Starting Express dist server...'));
 
+console.log(path.join(__dirname, '../dist'));
+
 app.use(express.static(path.join(__dirname, '../dist')));
 
 app.get('*', (_req, res) => {
