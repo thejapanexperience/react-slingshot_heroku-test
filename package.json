@@ -38,9 +38,7 @@
     "react-router": "3.0.0",
     "react-router-redux": "4.0.7",
     "redux": "3.6.0",
-    "redux-thunk": "2.1.0"
-  },
-  "devDependencies": {
+    "redux-thunk": "2.1.0",
     "autoprefixer": "6.5.4",
     "babel-cli": "6.18.0",
     "babel-core": "6.20.0",
@@ -90,6 +88,8 @@
     "webpack-dev-middleware": "1.9.0",
     "webpack-hot-middleware": "2.17.1",
     "webpack-md5-hash": "0.0.5"
+  },
+  "devDependencies": {
   },
   "keywords": [],
   "repository": {
