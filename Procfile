@@ -1,1 +1,1 @@
-web: node run distStart
+web: node diststart
