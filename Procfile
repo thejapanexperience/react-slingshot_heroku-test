@@ -1,1 +1,1 @@
-web: node diststart
+web: npm run diststart
